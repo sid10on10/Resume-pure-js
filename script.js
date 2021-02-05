@@ -14,7 +14,7 @@ let image_div = document.createElement('div')
 image_div.setAttribute('style','width:190px;height:190px;position:relative;left:410px;top:150px;')
 
 let profile_pic = document.createElement('img')
-profile_pic.setAttribute('src','1.jpg')
+profile_pic.setAttribute('src','1.png')
 profile_pic.setAttribute('style','width:100%;height:100%;border-radius:50%;border:5px dotted yellow;position:relative')
 
 let header_bar = document.createElement('div')
@@ -22,7 +22,7 @@ header_bar.setAttribute('style','background-color:white;height:45px;position:rel
 
 let header_name = document.createElement('div')
 header_name.setAttribute('style','background-color:#F3B02A;width:500px;height:80px;font-size:50px;text-align:center;padding-top:20px;margin-left:255px;margin-top:60px;position:relative;font-family:monospace;')
-header_name.innerText = "Siddhant Singh"
+header_name.innerText = "John Doe"
 
 
 image_div.appendChild(profile_pic)
@@ -34,7 +34,7 @@ container.appendChild(header_div)
 // contact address
 let address_div = document.createElement('div')
 address_div.setAttribute('style','background-color:white;text-align:center;font-family:monospace;height:25px;font-size:15px;padding-top:10px;border-bottom:2px solid black;')
-address_div.innerText = "Varanasi India | +919140780963 | siddhantk.singh.phe14@iitbhu.ac.in | www.sid10on10.info | "
+address_div.innerText = "Varanasi India | +919140780963 | dummyemail.com | www.domain.com | "
 
 container.appendChild(address_div)
 
@@ -143,15 +143,15 @@ work_header.innerText = "Work Experience"
 //work contents
  let work_content = document.createElement('p')
  work_content.setAttribute('style', 'text-align:center;font-family:monospace;margin-top:30px;padding-right:10px;')
- work_content.innerText = "I have 3 years of experience as a freelance on codementor where i have worked on python assignments on a regular basis. I have 5 star rating from clients all across the globe.I have worked as a full time role for Tessact mumbai and Notatee kuwait."
+ work_content.innerText = "I have 3 years of experience as a freelance on codementor where i have worked on python assignments on a regular basis. I have 5 star rating from clients all across the globe.I have worked as a full time role for Company 1  and Company 2 ."
 
  let work_content2 = document.createElement('h2')
  work_content2.setAttribute('style', 'text-align:center;font-family:monospace;margin-top:5px;')
- work_content2.innerText = "Codementor"
+ work_content2.innerText = "Company 1"
 
  let work_content3 = document.createElement('p')
  work_content3.setAttribute('style', 'text-align:center;font-family:monospace;margin-top:15px;padding-right:10px;')
- work_content3.innerText = "I have worked as a professional freelancer at codementor where i worked on Python assignments on a regular basis. I have 5 star rating there.I have worked on 59 projects."
+ work_content3.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in tempor lacus, non placerat urna. Maecenas erat nisl, euismod eu urna at, vulputate volutpat mi. Morbi ullamcorper augue quis ullamcorper maximus. Donec eu euismod diam, at tristique dolor. Aliquam est nunc, bibendum ut sodales eget, feugiat et nunc. Nullam eu odio cursus, iaculis tellus non, ultrices nibh. Aliquam velit eros, pharetra non purus vel, fermentum condimentum lectus. Donec nec ornare libero, ac lacinia tellus."
 
  
 
@@ -181,19 +181,19 @@ second_column.setAttribute('style','flex:50%;')
 
 let work_content4 = document.createElement('h2')
 work_content4.setAttribute('style', 'text-align:center;font-family:monospace;margin-top:5px;')
-work_content4.innerText = "Tessact"
+work_content4.innerText = "Company 2"
 
 let work_content5 = document.createElement('p')
 work_content5.setAttribute('style', 'text-align:center;font-family:monospace;margin-top:15px;padding-left:10px;')
-work_content5.innerText = "I have worked as a back end engineer at Tessact where i worked on Python based REST API on Django framework.Work was mostly focused on the video analytics simplified using machine learning and AI so that it can reduce efforts."
+work_content5.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in tempor lacus, non placerat urna. Maecenas erat nisl, euismod eu urna at, vulputate volutpat mi. Morbi ullamcorper augue quis ullamcorper maximus. Donec eu euismod diam, at tristique dolor. Aliquam est nunc, bibendum ut sodales eget, feugiat et nunc. Nullam eu odio cursus, iaculis tellus non, ultrices nibh. Aliquam velit eros, pharetra non purus vel, fermentum condimentum lectus. Donec nec ornare libero, ac lacinia tellus."
 
 let work_content6 = document.createElement('h2')
 work_content6.setAttribute('style', 'text-align:center;font-family:monospace;margin-top:25px;')
-work_content6.innerText = "Notatee"
+work_content6.innerText = "Company 3"
 
 let work_content7 = document.createElement('p')
 work_content7.setAttribute('style', 'text-align:center;font-family:monospace;margin-top:15px;padding-left:10px;')
-work_content7.innerText = "I have worked as a back end developer at Notatee where i worked on Python based Website on top of Django framework.Work was mostly focused on the back end logics and front end development using vue.js."
+work_content7.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in tempor lacus, non placerat urna. Maecenas erat nisl, euismod eu urna at, vulputate volutpat mi. Morbi ullamcorper augue quis ullamcorper maximus. Donec eu euismod diam, at tristique dolor. Aliquam est nunc, bibendum ut sodales eget, feugiat et nunc. Nullam eu odio cursus, iaculis tellus non, ultrices nibh. Aliquam velit eros, pharetra non purus vel, fermentum condimentum lectus. Donec nec ornare libero, ac lacinia tellus."
 
 let education = document.createElement('h1')
 education.innerText = "Education"
@@ -204,7 +204,7 @@ education1.innerText = "IIT-BHU"
 education1.setAttribute('style', 'font-size:25px;font-family:monospace;text-align:center;margin-top:15px;')
 
 let education2 = document.createElement('p')
-education2.innerText = "I have qualified the IIT JEE Entrance Exam in 2014. I got admitted into IIT BHU for a IDD (B.tech & M.tech) course Pharmaceutical Engineering. I have started as a front end developer in 1st year of my college. Then i started with Python and django and then i got into institute web development team and we built placement portal from scratch which was built on top of Django framework. "
+education2.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in tempor lacus, non placerat urna. Maecenas erat nisl, euismod eu urna at, vulputate volutpat mi. Morbi ullamcorper augue quis ullamcorper maximus. Donec eu euismod diam, at tristique dolor. Aliquam est nunc, bibendum ut sodales eget, feugiat et nunc. Nullam eu odio cursus, iaculis tellus non, ultrices nibh. Aliquam velit eros, pharetra non purus vel, fermentum condimentum lectus. Donec nec ornare libero, ac lacinia tellus."
 education2.setAttribute('style','font-family:monospace;text-align:center;padding-left:10px;')
 
 second_column.append(work_content4,work_content5,work_content6,work_content7,education,education1,education2)
